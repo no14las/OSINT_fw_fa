@@ -1,0 +1,111 @@
+@import url('https://fonts.cdnfonts.com/css/compacta-std'); /* فونت Compacta */
+body {
+   background-color: #000;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica;
+}
+
+#body {
+  background-color: #000; /* بک‌گراند مشکی */
+  color: #ff0000; /* متن قرمز خونین */
+  font-family: 'Arial', sans-serif; /* فونت ساده و خوانا */
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  background-color: #000;
+  color: white;
+  font-family: sans-serif;
+  overflow: hidden;
+  position: relative;
+}
+
+#header {
+  background: black; /* پس‌زمینه کاملاً مشکی */
+  color: red; /* متن قرمز خونین */
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  text-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+  position: relative;
+  animation: smooth-move 3s infinite alternate ease-in-out; /* انیمیشن حرکت نرم */
+}
+
+/* انیمیشن حرکت آرام متن */
+@keyframes smooth-move {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(5px); }
+  100% { transform: translateY(-5px); }
+}
+
+
+
+.legend {
+  background-color: #000;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 330px;
+  font-size: 10px;
+  color: #fffafa;
+}
+
+.node {
+  cursor:pointer;
+}
+
+.node circle {
+  cursor: pointer;
+  fill: #fff;
+  stroke: rgb(57, 99, 235);
+  stroke-width: 3px;
+}
+
+.node text {
+  font-size: 16px;
+  fill: rgb(255, 255, 255);
+}
+
+path.link {
+  fill: none;
+  stroke: #ff2fea50;
+  background-color: #ff2fea60;
+  stroke-width: 1px;
+}
+#helptx{
+  background-color:#ca0bb8;
+  color: #fff;
+}
+
+#header {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+hr {
+  border: 1px solid red;
+}
+
+h3 {
+  color: #fffafa;
+  text-align: right;
+  font-size: 24px;
+  text-shadow: 0 0 5px rgb(196, 122, 122);
+}
+
+#yadasht {
+  text-align: right;
+  color: aliceblue;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.legend {
+  border: .5px solid red;
+  padding: 10px;
+  margin: 20px;
+  background: rgba(255, 0, 0, 0.1);
+}
